@@ -174,7 +174,7 @@ git merge abort
 # Вариант мержа №2 - БЕЗ переноса точек коммитов.
 git checkout master
 git merge --squash dev              <<<<<<<<<<<<<<<<<<<
-git commit -m "Add new feature."
+git commit -m "Add new feature."    <<(!) НАДО(!) При squash-мерже - коммит не делается! Просто переноситься код, и все!
 
 
 # Вариант мержа №3
